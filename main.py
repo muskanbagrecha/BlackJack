@@ -53,6 +53,8 @@ def compare(user, comp, user_score, comp_score):
         print("You win! Bot went over 21")
     elif user_score>21:
         print("You lose! You went over 21")
+    elif user_score==comp_score:
+        print("It is a draw!")
     elif comp_score>user_score:
         print("You lose! Bot scored more than you.")
     else: print("You win! You scored more than the bot.")
